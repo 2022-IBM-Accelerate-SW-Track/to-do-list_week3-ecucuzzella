@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import profilePicture from "../assets/profilePicture.png";
 
 export default class About extends Component {
   render() {
@@ -11,17 +11,19 @@ export default class About extends Component {
           <div className="centered">
             <img
               className="profile_image"
-              src={profile_pic}
+              src={profilePicture}
               alt="Profile Pic"
             ></img>
           </div>
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Elizabeth Cucuzzella</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+              I am a Data Science major with a concentration in Environmental Science and a Mathematics major at Tufts University in the School of Engineering. 
+              I currently am working as a Digital Intern with TRC on utility and sustainability data analytics.
+              In my spare time I love to read and am an avid skater (both figure skating and roller skating.)
+              My favorite music is indie pop and my favorite band is Misterwives.
             </div>
           </div>
         </div>
